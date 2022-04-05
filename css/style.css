@@ -15,3 +15,33 @@
     font-size: 1.5em;
     font-weight: bold;
 }
+
+
+
+.municipalities {
+    fill: rgba(129, 129, 129, 0.664);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 1px;
+}
+
+.rivers {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgb(86, 162, 224);
+    stroke-width: 2px;
+}
+
+.lakes {
+    fill: rgb(86, 162, 224);
+}
+
+.interstates {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgb(92, 92, 92);
+    stroke-width: 1.25px;
+}
+
+.roads {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgb(92, 92, 92);
+    stroke-width: .75px;
+}

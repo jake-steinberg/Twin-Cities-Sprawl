@@ -16,18 +16,59 @@
     font-weight: bold;
 }
 
+.map {
+    border: medium solid #999;
+    margin: 10px 0 0 20px;
+}
 
+.chart {
+    float: right;
+    margin: 7px 20px 0 0;
+}
+
+.chartTitle {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.chartBackground {
+    fill: rgba(128,128,128,.2);
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
+}
 
 .municipalities {
-    fill: rgba(129, 129, 129, 0.664);
-    stroke: rgba(255, 255, 255, 1);
-    stroke-width: 1px;
+    opacity: 0.8;
+    stroke: rgb(255, 255, 255);
+    stroke-width: .75px;
+    stroke-linecap: round;
 }
 
 .rivers {
     fill: rgba(255, 255, 255, 0);
     stroke: rgb(86, 162, 224);
     stroke-width: 2px;
+    stroke-linecap: round;
 }
 
 .lakes {
@@ -38,6 +79,7 @@
     fill: rgba(0, 0, 0, 0);
     stroke: rgb(92, 92, 92);
     stroke-width: 1.25px;
+    stroke-linecap: round;
 }
 
 .roads {

@@ -6,22 +6,49 @@
             <title></title>
 
         <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <!--[if IE<9]>
-            <link rel="stylesheet" href="css/style.ie.css">
-        <![endif]-->
-
-         <!--you can also place internal styles here;
-             place these within <style> tags-->
-
     </head>
 
     <body>
-        <!--put your initial page content here-->
- 
-        <!--you can also use this space for internal scripts;
-        place these within <script> tags-->
+        <div class="row">
+            <!--title-->
+            <div class="col-md-8">
+                <div id="title">
+                <h2>Urban Sprawl in the Twin Cities metro, 2000-2019</h2>
+                </div>
+            </div>
+        </div>
+    <div class="row">        
+        <div class="col-md-7">
+            <!--supplementary text-->
+            <div id="information">
+                <p>Over 70,000 acres of farmland, wetlands and other greenspace surrounding the Minneapolis-St. Paul metro were converted into suburbia over the past two decades. 
+                    That's enough to cover the surface of Lake Minnetonka five times. It's more than all the state parks along the North Shore combined. To some, this growth is 
+                    of a robust economy. However, urban sprawl carries environmental and social consequences. Nearly every feature of suburbia from the houses and strip malls 
+                    to the miles of asphalt that connect them are impervious. Loss of habitat and fertile agricultural land are the most visible consequences of this pattern of development. 
+                </p>
+                <p>However, the most signifcant threat sprawl poses is the type of lifestyle it demands: one dependent entirely on a car to get around. Outer suburbs are low-density, 
+                    which invalidates walking, biking and public transportation as means of transportation. More people driving means more carbon dioxide emissions. Transportation is Minnesota's largest source of greenhouse gas emission, 
+                    and the cost of all that driving is not equally paid. Air pollution from freeways is disproportionately breathed by those living in the city, intensifying racial inequities in health.
+        </div>
+        <div class="col-md-6">
+            <!--map-->
+            <div id="map"></div>
+        </div>
+        <div class="col-md-6">
+            <!--chart-->
+            <div id="chart"></div>
+        </div>
+        <div class="col-md-7">
+            <div id="metadata">
+                <p>Data from the U.S. Geological Survey and the U.S. Census Bureau</p>
+                <p>Graphic by Jake Steinberg</p>
+            </div>
+        </div>
+        </div>
 
+        
         <!--put your external script links here-->
         <script type="text/javascript" src="lib/topojson.min.js"></script>
         <script type="text/javascript" src="lib/d3.js"></script>
@@ -29,3 +56,4 @@
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
+

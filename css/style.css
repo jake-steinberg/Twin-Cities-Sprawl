@@ -1,3 +1,15 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
 html,body {
     background-color: #aebcad;
     font-family: sans-serif;
@@ -48,8 +60,9 @@ html,body {
     stroke: #303030;
     stroke-width: .5;
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 28px;
     font-weight: bold;
+    font-family: JosefinSans;
 }
 
 .chartBackground {
@@ -136,6 +149,7 @@ option {
     border: solid thin #fff;
     padding: 5px 10px;
     top: -75px;
+    font-family: JosefinSans;
 }
 
 .infolabel h1 {
@@ -150,15 +164,20 @@ option {
     color: white;
     padding: 15px 20px 10px 30px;
     font-weight: bold;
+    font-family: JosefinSans;
+    margin-left: 3%;
 }
 
 #information{
-    line-height: 1;
+    line-height: 1em;
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     color: #455042;
     font-size: large;
+    font-family: JosefinSans;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #metadata{
@@ -166,6 +185,7 @@ option {
     text-align: right;
     font-style: italic;
     margin-right: 50px;
+    font-family: JosefinSans;
 }
 
 #metadata p{
